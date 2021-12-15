@@ -1,4 +1,9 @@
-var num_1 = 1 + 1
-var num_2 = 2 + 5
+function summa(arr){
+    var sum = 0;
+    for (var i = 0; i <arr.length; i++)
+    sum += arr[i];
+    console.log(sum)
+}
+var  array = [1, 1, 2, 5];
 
-console.log(num_1 + num_2);
+summa (array);
