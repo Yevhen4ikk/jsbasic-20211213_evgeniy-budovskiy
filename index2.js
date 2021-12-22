@@ -1,3 +1,5 @@
-function isValid(name) {
-  return !!name && !name.includes(' ') && name.length >= 4;
+function ucFirst(str) {
+if (!str);
+  return str[0].toUpperCase() + str.slice(1);
 }
+console.log(ucFirst("вася"));
